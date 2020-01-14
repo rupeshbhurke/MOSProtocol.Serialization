@@ -17,10 +17,14 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <SccProjectName>%24/VideoTransformation/IP Delivery/Trunk/src/MOS/OSM.MOSProtocol.Messages</SccProjectName>
-    <SccLocalPath>.</SccLocalPath>
-    <SccAuxPath>http://ctcitfs.ap.org:8080/tfs/vap</SccAuxPath>
-    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -569,6 +573,88 @@
     <Compile Include="MOS_2_8_3\storyBody.cs" />
     <Compile Include="MOS_2_8_3\storyItem.cs" />
     <Compile Include="MOS_2_8_3\u.cs" />
+    <Compile Include="MOS_2_8_4\b.cs" />
+    <Compile Include="MOS_2_8_4\defaultActiveX.cs" />
+    <Compile Include="MOS_2_8_4\description.cs" />
+    <Compile Include="MOS_2_8_4\element_source.cs" />
+    <Compile Include="MOS_2_8_4\element_target.cs" />
+    <Compile Include="MOS_2_8_4\heartbeat.cs" />
+    <Compile Include="MOS_2_8_4\i.cs" />
+    <Compile Include="MOS_2_8_4\item.cs" />
+    <Compile Include="MOS_2_8_4\ItemsChoiceType.cs" />
+    <Compile Include="MOS_2_8_4\ItemsChoiceType1.cs" />
+    <Compile Include="MOS_2_8_4\ItemsChoiceType2.cs" />
+    <Compile Include="MOS_2_8_4\ItemsChoiceType3.cs" />
+    <Compile Include="MOS_2_8_4\list.cs" />
+    <Compile Include="MOS_2_8_4\listMachInfo.cs" />
+    <Compile Include="MOS_2_8_4\mode.cs" />
+    <Compile Include="MOS_2_8_4\mosAck.cs" />
+    <Compile Include="MOS_2_8_4\mosExternalMetadata.cs" />
+    <Compile Include="MOS_2_8_4\mosItemReplace.cs" />
+    <Compile Include="MOS_2_8_4\mosListAll.cs" />
+    <Compile Include="MOS_2_8_4\mosListSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_4\mosObj.cs" />
+    <Compile Include="MOS_2_8_4\mosObjCreate.cs" />
+    <Compile Include="MOS_2_8_4\mosObjList.cs" />
+    <Compile Include="MOS_2_8_4\mosReqAll.cs" />
+    <Compile Include="MOS_2_8_4\mosReqObj.cs" />
+    <Compile Include="MOS_2_8_4\mosReqObjAction.cs" />
+    <Compile Include="MOS_2_8_4\mosReqObjActionOperation.cs" />
+    <Compile Include="MOS_2_8_4\mosReqObjList.cs" />
+    <Compile Include="MOS_2_8_4\mosReqSearchableSchema.cs" />
+    <Compile Include="MOS_2_8_4\mosScope.cs" />
+    <Compile Include="MOS_2_8_4\mos.cs" />
+    <Compile Include="MOS_2_8_4\objAir.cs" />
+    <Compile Include="MOS_2_8_4\objMetadataPath.cs" />
+    <Compile Include="MOS_2_8_4\objPath.cs" />
+    <Compile Include="MOS_2_8_4\objPaths.cs" />
+    <Compile Include="MOS_2_8_4\objProxyPath.cs" />
+    <Compile Include="MOS_2_8_4\objType.cs" />
+    <Compile Include="MOS_2_8_4\p.cs" />
+    <Compile Include="MOS_2_8_4\pi.cs" />
+    <Compile Include="MOS_2_8_4\pkg.cs" />
+    <Compile Include="MOS_2_8_4\reqMachInfo.cs" />
+    <Compile Include="MOS_2_8_4\ro.cs" />
+    <Compile Include="MOS_2_8_4\roAck.cs" />
+    <Compile Include="MOS_2_8_4\roAir.cs" />
+    <Compile Include="MOS_2_8_4\roCreate.cs" />
+    <Compile Include="MOS_2_8_4\roCtrl.cs" />
+    <Compile Include="MOS_2_8_4\roCtrlCmd.cs" />
+    <Compile Include="MOS_2_8_4\roDelete.cs" />
+    <Compile Include="MOS_2_8_4\roElementAction.cs" />
+    <Compile Include="MOS_2_8_4\roElementActionOperation.cs" />
+    <Compile Include="MOS_2_8_4\roElementStat.cs" />
+    <Compile Include="MOS_2_8_4\roItemCue.cs" />
+    <Compile Include="MOS_2_8_4\roItemDelete.cs" />
+    <Compile Include="MOS_2_8_4\roItemInsert.cs" />
+    <Compile Include="MOS_2_8_4\roItemMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_4\roItemReplace.cs" />
+    <Compile Include="MOS_2_8_4\roItemStat.cs" />
+    <Compile Include="MOS_2_8_4\roList.cs" />
+    <Compile Include="MOS_2_8_4\roListAll.cs" />
+    <Compile Include="MOS_2_8_4\roMetadataReplace.cs" />
+    <Compile Include="MOS_2_8_4\roReadyToAir.cs" />
+    <Compile Include="MOS_2_8_4\roReplace.cs" />
+    <Compile Include="MOS_2_8_4\roReq.cs" />
+    <Compile Include="MOS_2_8_4\roReqAll.cs" />
+    <Compile Include="MOS_2_8_4\roReqStoryAction.cs" />
+    <Compile Include="MOS_2_8_4\roReqStoryActionOperation.cs" />
+    <Compile Include="MOS_2_8_4\roStat.cs" />
+    <Compile Include="MOS_2_8_4\roStoryAppend.cs" />
+    <Compile Include="MOS_2_8_4\roStoryDelete.cs" />
+    <Compile Include="MOS_2_8_4\roStoryInsert.cs" />
+    <Compile Include="MOS_2_8_4\roStoryMove.cs" />
+    <Compile Include="MOS_2_8_4\roStoryMoveMultiple.cs" />
+    <Compile Include="MOS_2_8_4\roStoryReplace.cs" />
+    <Compile Include="MOS_2_8_4\roStorySend.cs" />
+    <Compile Include="MOS_2_8_4\roStorySwap.cs" />
+    <Compile Include="MOS_2_8_4\runContext.cs" />
+    <Compile Include="MOS_2_8_4\searchField.cs" />
+    <Compile Include="MOS_2_8_4\searchGroup.cs" />
+    <Compile Include="MOS_2_8_4\story.cs" />
+    <Compile Include="MOS_2_8_4\storyBody.cs" />
+    <Compile Include="MOS_2_8_4\storyItem.cs" />
+    <Compile Include="MOS_2_8_4\u.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -588,6 +674,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
